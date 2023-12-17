@@ -1,0 +1,108 @@
+* {
+	margin: 0px;
+	padding: 0px;
+/*	border: 1px black solid;*/
+}
+
+body{
+	background-image: url("image/backshi.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+#analog{
+	font-family: 'Featured Item', sans-serif;
+	font-size: 35px;
+}
+
+li {
+	display: inline;
+	margin-right: 30px;
+	font-family: 'ADLaM Display', sans-serif;
+}
+
+.header {
+	padding-left: 10px;
+	padding-top: 10px;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+/*  background-color: #333; */
+  color: #fff; 
+}
+
+.logo img {
+  max-width: 100px; 
+}
+
+.navbar ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+  display: flex; 
+  font-family: 'ADLaM Display', sans-serif;
+}
+
+.navbar li {
+  margin-right: 20px; 
+}
+
+.navbar a {
+  text-decoration: none;
+  color: whitesmoke; 
+  font-weight: bold;
+}
+
+a {
+font-family: 'VerbCond Regular', sans-serif;
+  text-decoration: none;
+  color: whitesmoke; 
+  border: 1px solid transparent;
+  padding: 10px;
+  transition: box-shadow 0.3s;
+}
+
+
+a:hover {
+  color: #f27c22;
+  box-shadow: 0 0 10px 2px whitesmoke;
+  border-color: black; 
+  border-radius: 2px;
+}
+
+a:hover, a.on{
+  color: white;
+  box-shadow: 0 0 10px 2px whitesmoke;
+  border-color: black; 
+  border-radius: 2px;
+}
+
+p{
+	color: #f27c22;
+	font-family: 'ADLaM Display', sans-serif;
+	font-size: 50px;
+}
+
+#desccon{
+	padding-top: 14%;
+	padding-left: 17px;
+}
+
+#butcon{
+	padding-top: 30px;
+	padding-left: 10%;
+}
+
+#butcon a{
+	margin-right: 40px;
+}
+
+#buy{
+	border: 1px solid #f27c22;
+	background-color: #f27c22;
+}
+
+#repair{
+	border: 1px solid #f27c22;
+	background-color: #f27c22;
